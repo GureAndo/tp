@@ -1,0 +1,111 @@
+/*-------------- import google font----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+/*-------body-------*/
+body{
+    background-color:rgb(63, 228, 145);
+}
+
+/*--------------header--------------*/
+header{
+    background: url(../img/WoodPlanksBare0343_2_download600.jpg);
+    height: 600px;
+    font-family: "caveat brush", serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cerf{
+    margin-left:45%;
+    margin-right:45%;
+    margin-top: 8%; 
+}
+/*--------------fin header----------------*/
+
+section{
+    background-color: whitesmoke;
+    background-image: url(..//img/motif.jpg);
+}
+
+/*---------------section 1------------------*/
+
+#asperge img{
+   float:right;
+   width: 60%;
+}
+#asperge p{ 
+   text-align: center;
+}
+.asperge h1, h4{
+    text-align: center ;
+}
+
+.clear{
+    clear: both;
+}
+/*------------ fin section 1------------------*/
+
+/*-----------section 2 ------------------*/
+
+#soap img{
+    float: left;
+    width: 60%;
+    background-image: url(../img/graines_01.jpg);
+}
+#soap p{
+   text-align: center;
+}
+.soap h2, h4{
+  text-align:center ;
+}
+.clear{
+    clear: both;
+}
+/*-----------section 2-------------------*/
+/*-----------section 3 ------------------*/
+
+#moule img{
+    width: 60%;
+    float:right;
+}
+#moule p{
+   text-align: center;
+}
+.moule h2, h4{
+  text-align: center;
+}
+.clear{
+    clear: both;
+}
+/*------------section 3------------------*/
+/*-----------section 4 ------------------*/
+
+#eggs img{
+    float: left;
+    width: 100%;
+}
+#eegs p{
+   text-align: center;
+}
+.eggs h2{
+  text-align:center ;
+}
+.clear{
+    clear: both;
+}
+/*-----------fin section 4 -----------*/
+/*------------footer------------------*/
+footer{
+    display:inline-block;
+    background: url(../img/motif.jpg);
+    background-size: 100%;
+    width:100%;
+    height: 500px;
+}
+footer h2{
+    font-family: "caveat brush", serif
+}
+
+
+
+
