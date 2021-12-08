@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 3%
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: Shadows Into Light, sans-serif ;
+    font-size: 70px;
+    background-color:  #273978;
+    margin-bottom: 0;
+}
+/*====== je sais pas quoi metre en commentaire alors je vais faire une blague "je m'attendais à faire plus de poupée russe" NYAAA~~======*/
+#blocTop, #blocMid, #blocBot{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffffff;
+    font-family: Shadows Into Light, sans-serif ;
+    font-size: 25px;  
+    background-color:  #273978;
+    margin-top: 0;
+    
+}
+
+p{
+    text-align: center;
+}
