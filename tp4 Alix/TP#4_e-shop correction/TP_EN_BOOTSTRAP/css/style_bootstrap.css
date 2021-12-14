@@ -1,0 +1,27 @@
+.carousel-control-prev {
+    width: 0 !important;
+    left: 5%;
+}
+.carousel-control-next {
+    width: 0 !important;
+    right: 5%;
+}
+
+p {
+    margin: 0;
+}
+
+ol {
+    margin: 0 !important;
+    background: #2227;
+    padding:10px 0;
+    position: absolute !important;
+    bottom: 0 !important;
+}
+
+ol li {
+    text-align: right !important;
+    width: 25px !important;
+    height: 25px !important;
+    right: 0 !important;
+}

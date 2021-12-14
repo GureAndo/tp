@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+/***********debut de la nav et du header************/
+
+body{
+  margin: 0 auto;
+}
+
+nav a{
+    padding-left: 0%;
+    padding-right: 0%;
+    margin: 35px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav :focus{
+    border-top: 3px solid #8DAE4F;
+}
+
+nav{
+    background-color: black;
+    opacity: .7;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    margin: 0 auto;
+    padding: 0 auto;
+}  
+
+header{
+    background-image:url(../img/dinosaure.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding:0 auto;
+    height: 1200px;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+button{
+    color: white;
+    width: 190px;
+    height: 30px;
+    position: absolute;
+    left: 1560px;
+    top: 18px;
+}
+
+.logo{
+   position:relative; 
+    top: 120px;
+    text-align: center;
+}
+
+
+.climatise img{
+    position: relative;
+    left:1560px;
+    top:78px ;
+}
+
+button{
+    background-color:#1C5F81;
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    color: #1C5F81;
+}
+
+/***********fin de la nav et du header************/
+/***********debut du main  et de la section entrerr************/
+h1,h2,h3{
+    font-family: 'Montserrat';
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.entrer img{
+    margin-left: 30%;
+}
+
+.entrer img:hover{
+    size-adjust: 200%;
+    box-shadow: 5px 10px 10px grey;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+
+.entrer a{
+    color: #ccc;
+    text-shadow: 0 -2px 0 black;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+
+.entrer a span{
+    position: absolute;
+    padding: 15px;
+    margin-top: 23px;
+    margin-left: -685px;
+    background-color: rgba(0, 0, 0, .9);
+    opacity: 0;
+    color: #8DAE4F;
+    border-radius: 3px;
+    transition: .25s;
+    transform: scale(0) rotateZ(-12deg);
+}
+
+.entrer a:hover span{
+    opacity: 1;
+    transform: scale(1) rotateZ(0);
+}
+
+.entrer a span::before{
+    content: '';
+    position: absolute;
+} 
+
+.txtDescription, .Reserve{
+    text-align: center;
+}
+
+.Reserve{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btnReserve{
+    position:relative;
+    left: -700px;
+    height: 100px;
+}
+/***********fin de la section entrer************/
+/***********debut de la section info************/
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarifHoraire, .plan{
+    display: flex;
+    flex-direction: column;
+}
+
+.tarif button{
+    position: relative;
+    left:0;
+}
+
+/***********fin de la section info************/
+/***********debut de la section partenaire************/
+
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.partenaire{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.partenaire img{
+    width: 50px;
+    height: 30px;
+}
+
+/***********fin de la section partenaire************/
+/***********debut du footer************/
+
+footer{
+    background-color: #000;
+    color: white;
+    height: 200px;
+    padding-top: 40px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer img{
+  width: 150px;
+}
+
+
